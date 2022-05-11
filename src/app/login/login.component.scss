@@ -7,3 +7,18 @@ mat-card {
   mat-form-field {
     display: block;
   }
+
+
+.signup {
+  text-align: end;
+  right: 0;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  
+  &:hover, &:active, &:visited {
+    color: blue;
+  }
+}

@@ -9,7 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class LoginComponent implements OnDestroy, OnInit {
   public loginValid = true;
-  public username = '';
+  public email = '';
   public password = '';
   router: ActivatedRoute;
 

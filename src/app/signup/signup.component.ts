@@ -7,7 +7,10 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./signup.component.scss']
 })
 export class SignupComponent implements OnInit {
-
+  public loginValid = true;
+  public email = '';
+  public password = '';
+  public confirmpassword = '';
   route: ActivatedRoute;
   router: Router;
 
@@ -17,6 +20,10 @@ export class SignupComponent implements OnInit {
     this.router = router;
    }
 
+   public onSubmit(): void {
+    this.loginValid = true;
+  }
+  
   ngOnInit(): void {
   }
 

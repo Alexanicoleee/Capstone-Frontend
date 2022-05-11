@@ -1,0 +1,29 @@
+mat-card {
+    max-width: 75%;
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+mat-form-field {
+    display: block;
+    width: 40%;
+}
+
+div {
+    > mat-form-field {
+        display: inline-block;
+        width: 40%;
+        margin-left: 2%;
+        margin-right: 2%;
+
+        > .left {
+            text-align: left;
+            left: 0;
+        }
+    
+        .right {
+            text-align: right;
+            right: 0;
+        }
+    }
+}

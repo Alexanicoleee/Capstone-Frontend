@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -27,6 +28,7 @@ import { SignupComponent } from './signup/signup.component';
     FormsModule,
     MatInputModule,
     MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
